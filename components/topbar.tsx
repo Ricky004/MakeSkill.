@@ -10,7 +10,7 @@ const TopBar = () => {
         <>
             <div className="flex justify-between w-full h-14 items-center p-3 ">
                 <div>
-                    <h2 className="font-bold">LeanSkill</h2>
+                    <h2 className="font-extrabold">LeanSkills</h2>
                 </div>
                 <div className="flex flex-row gap-3 items-center">
                     <SearchBar />
@@ -18,7 +18,7 @@ const TopBar = () => {
                     <Bell size="2rem"/>
                     <Avatar>
                         <AvatarImage src="" />
-                        <AvatarFallback>CN</AvatarFallback>
+                        <AvatarFallback>TD</AvatarFallback>
                     </Avatar>
                     <p className="font-medium text-center whitespace-nowrap">Tridip Dam</p>
                 </div>
