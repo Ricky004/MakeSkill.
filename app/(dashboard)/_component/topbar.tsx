@@ -9,7 +9,7 @@ import TopbarRoutes from "@/components/topbar-routes"
 const TopBar = () => {
     return (
         <>
-            <div className="flex justify-between w-full h-14 items-center p-3 bg-white z-50">
+            <div className="flex justify-between items-center p-3 bg-white">
                 <div>
                     <h2 className="hidden md:block font-extrabold">LeanSkills</h2>
                 </div>
