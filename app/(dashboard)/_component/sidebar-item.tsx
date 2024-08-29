@@ -25,21 +25,21 @@ export function SidebarItem({ icon: Icon, label, href }: SidebarItemProps) {
 
   return (
     <>
-      <div className="">
+      <div>
         <button
           onClick={onclick}
           type="button"
           className={cn(
-            "flex items-center pr-28 whitespace-nowrap gap-2 text-slate-500 text-sm font-[500] pl-6 transition-all hover:text-slate-600 hover:bg-slate-300/20",
-            isActive && "text-sky-700 bg-sky-200/20 hover:bg-sky-200/20 hover:text-sky-700"
+            "flex items-center pr-28 whitespace-nowrap gap-2 text-sm font-[700] pl-6 transition-all hover:text-slate-600 hover:bg-slate-300/20",
+            isActive && "text-violet-700 bg-sky-200/20 hover:bg-violet-200/20 hover:text-violet-700"
           )}
         >
           <div className="flex items-center gap-x-2 py-4">
             <Icon
               size={22}
               className={cn(
-                "text-slate-500",
-                isActive && "text-sky-700"
+                "",
+                isActive && "text-violet-700"
               )}
             />
             {label}

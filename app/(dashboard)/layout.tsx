@@ -8,7 +8,7 @@ const DashboardLayout = ({
 }) => {
     return (
         <>
-            <div className="h-screen bg-gray-100">
+            <div className="min-h-screen bg-gray-100">
                 <div className="fixed w-full h-[80px] inset-y-0 z-50">
                  <TopBar />
                 </div>
@@ -16,7 +16,7 @@ const DashboardLayout = ({
                 z-50">
                  <Sidebar />
                 </div>
-                <main className="md:pl-56 pt-[80px] h-full">
+                <main className="md:pl-56 pt-[80px] min-h-screen">
                  {children}
                 </main>
             </div>
