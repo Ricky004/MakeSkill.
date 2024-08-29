@@ -1,9 +1,11 @@
 "use client"
 
+import HeartButton from "@/components/heart-btn";
 import { IconBadge } from "@/components/icon-badge";
 import { BookOpen } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { IoMdStar } from "react-icons/io";
 
 const CourseCard = () => {
    return (
@@ -30,24 +32,30 @@ const CourseCard = () => {
                   <p className="text-xs text-muted-foreground font-medium">
                      LeanSkill training
                   </p>
-                    <p className="text-xs text-muted-foreground bg-violet-600 
+                  <p className="text-xs text-muted-foreground bg-violet-600 
                     p-1 text-white rounded-md w-20 text-center mt-2">
-                      Engineering
-                   </p>
+                     Engineering
+                  </p>
                   <div className="my-3 flex-center gap-x-2 text-sm
                 md:text-xs">
-                     <div className="flex items-center gap-x-1 text-slate-500">
-                        <IconBadge
-                           size="sm"
-                           icon={BookOpen}
-                        />
-                        <span>
-                           15 hour
-                        </span>
+                     <div className="flex flex-row justify-between items-center gap-x-1 text-slate-500">
+                        <div className="flex items-center justify-center gap-1">
+                           <IconBadge
+                              size="sm"
+                              icon={BookOpen}
+                           />
+                           <span>
+                              15 hour
+                           </span>
+                        </div>
+                        <div className="flex justify-center items-center">
+                           <IoMdStar className="size-5 text-yellow-400" />
+                           <span className="font-bold"> 4.5 (456) </span>
+                        </div>
                      </div>
                      <p className="text-md md:text-sm font-extrabold pt-4
                    text-slate-700">
-                        ₹1200
+                        ₹1200 
                      </p>
                   </div>
                </div>
