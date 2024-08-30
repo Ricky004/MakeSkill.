@@ -19,7 +19,7 @@ const TopBar = () => {
                     <CircleHelp size="2rem"/>
                     <Bell size="2rem"/>
                     <Avatar>
-                        <AvatarImage src="" />
+                        <AvatarImage src="/sad-Anime.png" />
                         <AvatarFallback>TD</AvatarFallback>
                     </Avatar>
                     <p className="hidden lg:block font-medium text-center whitespace-nowrap">Tridip Dam</p>

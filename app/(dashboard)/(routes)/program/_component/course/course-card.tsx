@@ -1,6 +1,5 @@
 "use client"
 
-import HeartButton from "@/components/heart-btn";
 import { IconBadge } from "@/components/icon-badge";
 import { BookOpen } from "lucide-react";
 import Image from "next/image";

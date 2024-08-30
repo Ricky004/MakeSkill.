@@ -66,7 +66,7 @@ export const SidebarRoutes = () => {
     const routes = isInstructorPage ? instructorRoutes : learnerRoutes
     return (
         <>
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col w-full mt-2">
                 {
                     routes.map((route) => (
                         <SidebarItem

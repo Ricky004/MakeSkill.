@@ -30,8 +30,8 @@ export const ChapterSidebarItem = ({ icon: Icon, label, href }: ChapterSidebarIt
                     onClick={onclick}
                     type="button"
                     className={cn(
-                        "flex items-center pr-28 whitespace-nowrap gap-2 text-slate-500 text-sm font-[500] pl-6 transition-all hover:text-slate-600 hover:bg-slate-300/20",
-                        isActive && "text-sky-700 bg-sky-200/20 hover:bg-sky-200/20 hover:text-sky-700"
+                        "text-slate-400 flex items-center rounded-xl whitespace-nowrap gap-2 mt-2 pl-2 text-sm font-[700] w-full transition-all hover:text-slate-400 hover:bg-slate-300/20",
+                        isActive && "text-slate-900 bg-sky-200/20 hover:bg-violet-200/20 hover:text-white"
                     )}
                 >
                     <div className="flex items-center gap-x-2 py-4">

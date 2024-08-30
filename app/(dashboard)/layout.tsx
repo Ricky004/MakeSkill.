@@ -12,11 +12,11 @@ const DashboardLayout = ({
                 <div className="fixed w-full h-[80px] inset-y-0 z-50">
                  <TopBar />
                 </div>
-                <div className="hidden md:flex h-full w-56 flex-col fixed inset-y-0
+                <div className="hidden md:flex h-full w-64 flex-col fixed inset-y-0
                 z-50">
                  <Sidebar />
                 </div>
-                <main className="md:pl-56 pt-[80px] min-h-screen">
+                <main className="md:pl-64 pt-[80px] min-h-screen">
                  {children}
                 </main>
             </div>

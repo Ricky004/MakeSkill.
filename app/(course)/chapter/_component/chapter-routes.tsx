@@ -1,33 +1,44 @@
 import { Film, Lock } from "lucide-react";
-import { ChapterSidebarItem } from "./chapter-sideber-item";
+import { ChapterSidebarItem } from "./chapter-list-item";
 
 
 const chapterRoutes = [
     {   
         icon: Film,
-        label: "introduction",
+        label: "Introduction",
         href: "/chapter/introduction",
     },
     {
         icon: Lock,
-        label: "supervised learning",
+        label: "Supervised learning",
         href: "/chapter/supervised-learning",
     },
     {
         icon: Lock,
-        label: "regression",
+        label: "Regression",
         href: "/chapter/regression",
     },
     {
         icon: Lock,
-        label: "unsupervised learning",
+        label: "Unsupervised learning",
         href: "/chapter/unsupervised-learning",
     },
     {
         icon: Lock,
-        label: "reinforcement learning",
+        label: "Reinforcement learning basics",
         href: "/chapter/reinforcement-learning",
     },
+    {
+        icon: Lock,
+        label: "Math behind regression model",
+        href: "/chapter/reinforcement-learning",
+    },
+    {
+        icon: Lock,
+        label: "Neural network basic introduction",
+        href: "/chapter/reinforcement-learning",
+    },
+    
 ]
 
 const ChapterRoutes = () => {

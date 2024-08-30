@@ -1,4 +1,5 @@
-import ChapterSidebar from "./chapter/_component/chapter-sidebar"
+import { Sidebar } from "../(dashboard)/_component/sidebar";
+
 
 const ChapterPageLayout = ({
   children
@@ -7,12 +8,12 @@ const ChapterPageLayout = ({
 }) => {
     return (  
         <>
-          <div className="min-h-screen bg-gray-100">
+          <div className="h-screen bg-white">
             <div className="hidden md:flex h-full w-64 flex-col fixed inset-y-0
                 z-50">
-              <ChapterSidebar />
+              <Sidebar />
             </div>
-            <main className="md:pl-64 min-h-screen">
+            <main className="md:pl-64 fixed">
               {children}
             </main>
           </div>
