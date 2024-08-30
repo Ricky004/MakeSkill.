@@ -31,12 +31,12 @@ const chapterRoutes = [
     {
         icon: Lock,
         label: "Math behind regression model",
-        href: "/chapter/reinforcement-learning",
+        href: "/chapter/math-ml",
     },
     {
         icon: Lock,
         label: "Neural network basic introduction",
-        href: "/chapter/reinforcement-learning",
+        href: "/chapter/neural-network",
     },
     
 ]

@@ -13,7 +13,7 @@ const ChapterPageLayout = ({
                 z-50">
               <Sidebar />
             </div>
-            <main className="md:pl-64 fixed">
+            <main className="md:pl-64 2xl:fixed">
               {children}
             </main>
           </div>
