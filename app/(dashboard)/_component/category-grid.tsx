@@ -15,7 +15,7 @@ const CategoryGrid = () => {
                             className="object-cover rounded-md h-16"
                             alt="course-image-title"
                         />
-                        <div className="flex flex-col gap-y-1 whitespace-nowrap pr-5 justify-center">
+                        <div className="flex flex-col gap-y-1 2xl:whitespace-nowrap pr-5 justify-center">
                             <p className="font-bold text-slate-800">Physics with Python with real world expriments</p>
                             <p className="text-slate-500">Jake VanderPlas</p>
                         </div>
