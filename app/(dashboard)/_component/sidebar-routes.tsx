@@ -3,11 +3,10 @@
 import {
     ChartNoAxesColumn,
     GraduationCap,
-    Users,
-    SquareUserRound,
     StarIcon,
     List,
-    BarChart
+    BarChart,
+    Settings
 } from "lucide-react";
 import { SidebarItem } from "./sidebar-item";
 import { usePathname } from "next/navigation";
@@ -24,14 +23,9 @@ const learnerRoutes = [
         href: "/program",
     },
     {
-        icon: Users,
-        label: "Learners",
-        href: "/learn",
-    },
-    {
-        icon: SquareUserRound,
-        label: "Instructors",
-        href: "/inst",
+        icon: Settings,
+        label: "settings",
+        href: "/settings",
     },
     {
         icon: StarIcon,
