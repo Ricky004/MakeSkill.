@@ -10,7 +10,7 @@ export function Sidebar() {
       <div className="h-full flex flex-col justify-between border-r shadow-sm 
       overflow-y-auto bg-[#1d2535]">
         <div className="m-6">
-          <h2 className="text-white font-extrabold text-2xl">LeanSkills</h2>
+          <h2 className="text-white font-extrabold text-2xl">MakeSkill</h2>
           <div className="flex flex-col w-full overflow-hidden">
           <SidebarRoutes />
         </div>

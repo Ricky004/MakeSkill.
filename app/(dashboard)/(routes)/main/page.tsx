@@ -3,10 +3,10 @@
 import { Button } from "@/components/ui/button"
 import { Play } from "lucide-react"
 import Image from "next/image"
-import HomeCategory from "../_component/home-category"
-import WatchCourseCard from "../_component/watched-course-card"
+import HomeCategory from "../../_component/home-category"
+import WatchCourseCard from "../../_component/watched-course-card"
 import { FcDataProtection, FcEngineering } from "react-icons/fc"
-import DashboardCategory from "../_component/dashboard-category"
+import DashboardCategory from "../../_component/dashboard-category"
 import { PieChartDiagram } from "@/components/pie-chart"
 import { LineChartDiagram } from "@/components/line-chart"
 
