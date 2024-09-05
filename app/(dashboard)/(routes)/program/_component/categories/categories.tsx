@@ -14,7 +14,7 @@ import {
 const Categories = () => {
     return (  
         <>
-          <div className="flex flex-row m-2 gap-2 overflow-scroll">
+          <div className="flex flex-row pl-2 gap-2 overflow-scroll">
             <Button variant="outline" className="space-x-1 rounded-2xl">
               All
             </Button>

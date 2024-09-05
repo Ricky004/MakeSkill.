@@ -7,16 +7,16 @@ const DashboardLayout = ({
     children: React.ReactNode
 }) => {
     return (
-        <>
+        <> 
             <div className="min-h-screen bg-gray-100">
-                <div className="fixed w-full h-[80px] inset-y-0 z-50">
+                {/* <div className="fixed w-full h-[80px] inset-y-0 z-50">
                  <TopBar />
-                </div>
-                <div className="hidden md:flex h-full w-64 flex-col fixed inset-y-0
+                </div> */}
+                <div className="hidden xl:flex h-full w-64 flex-col fixed inset-y-0
                 z-50">
                  <Sidebar />
                 </div>
-                <main className="md:pl-64 pt-[80px] min-h-screen">
+                <main className="xl:pl-64 pt-[10px] min-h-screen">
                  {children}
                 </main>
             </div>

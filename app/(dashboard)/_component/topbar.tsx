@@ -11,7 +11,7 @@ const TopBar = () => {
         <>
             <div className="flex justify-between items-center p-3 bg-white">
                 <div>
-                    <h2 className="hidden md:block font-extrabold">LeanSkills</h2>
+                    <h2 className="hidden md:block font-extrabold">MakeSkill.</h2>
                 </div>
                 <div className="flex flex-row gap-3 items-center">
                     <TopbarRoutes />

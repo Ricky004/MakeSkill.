@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LeanSkills",
-  description: "skill Learning dashboard",
+  title: "MakeSkill.",
+  description: "e-learning platform",
 };
 
 export default function RootLayout({
