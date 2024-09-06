@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation"
 import { Button } from "./ui/button"
-import { LogOut } from "lucide-react"
+import { ChevronsUpDown, LogOut } from "lucide-react"
 import Link from "next/link"
 
 const TopbarRoutes = () => {
@@ -24,7 +24,7 @@ const TopbarRoutes = () => {
           ) : (
             <Link href="/instructor/learning-paths">
               <Button size="sm" variant="ghost" className="text-slate-400">
-                 Instructor mode
+                  <ChevronsUpDown />
               </Button>
             </Link>
           )}

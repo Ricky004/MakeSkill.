@@ -8,7 +8,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoMdStar } from "react-icons/io";
 
-const CourseCard = () => {
+interface CourseCardProps {
+   src: string
+   heading: string
+}
+
+const CourseCard: React.FC<CourseCardProps> = ({src, heading}) => {
    return (
       <>
          <Link href="/chapter/introduction">
@@ -20,7 +25,7 @@ const CourseCard = () => {
                      fill
                      className="object-cover"
                      alt="course-image-title"
-                     src="/image.jpg"
+                     src={src}
                   />
                </div>
                <div className="flex flex-col p-3">
@@ -42,7 +47,7 @@ const CourseCard = () => {
                   <div className="text-lg md:text-base font-medium 
                  group-hover:text-sky-700 transition line-clamp-2 pb-2">
                      <p>
-                        Introduction to Machine Learning
+                        {heading}
                      </p>
                   </div>
                   <Separator />

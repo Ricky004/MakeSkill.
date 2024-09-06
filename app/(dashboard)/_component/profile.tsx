@@ -1,7 +1,7 @@
 "use client"
 
+import TopbarRoutes from "@/components/topbar-routes";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { ChevronsUpDown } from "lucide-react"
 
 const Profile = () => {
     return (  
@@ -17,7 +17,7 @@ const Profile = () => {
                             <p className="text-xs text-slate-500">Jake VanderPlas</p>
                         </div>
                     </div>
-                    <ChevronsUpDown className="text-white" />
+                    <TopbarRoutes />
             </div>
         </>
     );

@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button"
 const ProgramPage = () => {
     return ( 
         <>
-          <div className="">
-            <div className="flex flex-row gap-4 p-4 w-1/2 items-center">
-             <SearchBar />
+          <div>
+            <div className="flex flex-row w-1/2 gap-4 p-4 items-center justify-between">
+            <SearchBar />
              <Button>
                Search
              </Button>

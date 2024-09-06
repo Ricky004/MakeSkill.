@@ -21,11 +21,11 @@ const LearningPathPage = () => {
         <p className="mb-5 text-slate-600">Your previously created all Learnign Paths</p>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3
            xl:grid-cols-4 2xl:grid-cols-4 gap-4">
-          <CourseCard />
-          <CourseCard />
-          <CourseCard />
-          <CourseCard />
-          <CourseCard />
+          <CourseCard src="/image.jpg" heading="Introduction to Machine Learning"/>
+          <CourseCard src="/pic-1.jpg" heading="Introduction to Java"/>
+          <CourseCard src="/pic-2.png" heading="Devops (zero to hero) course" />
+          <CourseCard src="/image.jpg" heading="Introduction to Machine Learning"/>
+          <CourseCard src="/pic-1.jpg" heading="Introduction to Java"/>
         </div>
       </div>
     </>
